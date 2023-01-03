@@ -1,10 +1,10 @@
 import React from "react";
-import Chart from "react-apexcharts";
+import { ChartBar } from "./chart";
 
 export function MainContent() {
   return (
     <div>
-      <Chart />
+      <ChartBar/>
     </div>
   );
 }
