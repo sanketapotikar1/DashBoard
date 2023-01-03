@@ -7,6 +7,7 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import MailIcon from "@mui/icons-material/Mail";
+import DashboardRoundedIcon from '@mui/icons-material/DashboardRounded';
 
 export function SideBarContent() {
   return (
@@ -14,7 +15,6 @@ export function SideBarContent() {
       <Divider />
       <List>
         {[
-          "Inbox",
           "Dashboard",
           "COMPONENTS",
           "UTILITIES",
